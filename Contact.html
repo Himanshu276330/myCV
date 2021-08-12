@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>My Contact Details : </h1>
+    <p>My phone : 9660771752</p>
+    <p>My Email : shekharh433@gmail.com</p>
+
+    <hr size="4" noshade>
+
+    <h3>Contact Me :</h3>
+
+    <form action="mailto:shekharh154@gmail.com" method="get" enctype="text/plain">
+        <div>
+          <label for="name">Enter your name: </label>
+          <input type="text" name="name" id="name" required>
+        </div>
+        <br>
+        <div>
+          <label for="email">Enter your email: </label>
+          <input type="email" name="email" id="email" required>
+        </div>
+        <br>
+        <div>
+          <label for="password">Enter your pass : </label>
+          <input type="password" name="password" id="password" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="date">Date of Birth: </label>
+            <input type="date" name="date" id="dateOfBirth" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="file">Chossee you file: </label>
+            <input type="file" name="file" id="file" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="sallary">Your Sallary : </label>
+            <input type="range" min="0" max="100"  name="sallary" id="sallary" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="check">Are you a subscriber of my channel?</label>
+            <input type="checkbox"  required>
+        </div>
+        <br>
+
+        <!--Radio button attribute name have to be the same so the user can select
+            only one with the same name. This way you can have multiple groups. -->
+        <fieldset>
+            <legend>Gender</legend>
+            <label><input type="radio" name="gender" id="male">Male</label>
+            <label><input type="radio" name="gender" id="female">Female</label>
+            <label><input type="radio" name="gender" id="other">Others</label>
+        </fieldset>
+        <br>
+
+        <div>
+          <input type="submit" value="Send!">
+        </div>
+      </form>
+
+      <hr size="4" noshade>
+      
+</body>
+</html>
